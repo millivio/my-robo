@@ -5,7 +5,7 @@ This bot automates the process of logging into RobotSpareBinIndustries, extracti
 ## **Solution Design**
 
 ## **State Transition Model**
-![State Transition Model] (https://github.com/user-attachments/assets/b3445fba-4206-4bce-986b-b97e8c5155c3)
+![image](https://github.com/user-attachments/assets/b3445fba-4206-4bce-986b-b97e8c5155c3)
 
 The process follows a structured state transition model similar to the UiPath Reframework. Each state represents a distinct phase in the automation process. The key states are as follows:
 
