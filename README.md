@@ -1,60 +1,122 @@
-# Template: Python - Minimal
+# Robot Spare Bin Bot
 
-This template leverages the new [Python framework](https://github.com/robocorp/robocorp), the [libraries](https://github.com/robocorp/robocorp/blob/master/docs/README.md#python-libraries) from to same project as well.
+This bot automates the process of logging into RobotSpareBinIndustries, extracting sales data from an Excel file, submitting the data via a web form, and exporting the results as a PDF.
 
-The template provides you with the basic structure of a Python project: logging out of the box and controlling your tasks without fiddling with the base Python stuff. The environment contains the most used libraries, so you do not have to start thinking about those right away. 
+## **Solution Design**
 
-👉 Other templates are available as well via our tooling and on our [Portal](https://robocorp.com/portal/tag/template)
+### **State Transition Model**
 
-## Running
+The process follows a structured state transition model similar to the UiPath Reframework. Each state represents a distinct phase in the automation process. The key states are as follows:
 
-#### VS Code
-1. Get [Robocorp Code](https://robocorp.com/docs/developer-tools/visual-studio-code/extension-features) -extension for VS Code.
-1. You'll get an easy-to-use side panel and powerful command-palette commands for running, debugging, code completion, docs, etc.
+1. **Initialization**
+   - Load configuration and credentials from `config.json`.
+   - Configure browser settings and logging.
+   - Open the RobotSpareBin website.
 
-#### Command line
+2. **Login**
+   - Logs in using the username and password from `config.json`.
+   - Handles login failures and exits gracefully if credentials are incorrect.
 
-1. [Get RCC](https://github.com/robocorp/rcc?tab=readme-ov-file#getting-started)
-1. Use the command: `rcc run`
+3. **Data Collection**
+   - Downloads an Excel file containing sales data from the website.
 
-## Results
+4. **Data Processing**
+   - Reads the data from the Excel file.
+   - Submits each row from the Excel file to the web form on the website.
 
-🚀 After running the bot, check out the `log.html` under the `output` -folder.
+5. **Summary and Export**
+   - Captures a screenshot of the results page.
+   - Exports the results as a PDF file.
 
-## Dependencies
+6. **Logout**
+   - Logs out from the platform.
 
-We strongly recommend getting familiar with adding your dependencies in [conda.yaml](conda.yaml) to control your Python dependencies and the whole Python environment for your automation.
+---
 
-<details>
-  <summary>🙋‍♂️ "Why not just pip install...?"</summary>
+## **Design Justification**
 
-Think of [conda.yaml](conda.yaml) as an equivalent of the requirements.txt, but much better. 👩‍💻 With `conda.yaml`, you are not just controlling your PyPI dependencies; you control the complete Python environment, which makes things repeatable and easy.
+- **State Transition Model**: This model allows for clear state separation and error handling.
+- **Modularity**: Each phase has a dedicated function, promoting code reusability and easier maintenance.
+- **Credential Management**: Uses a secure `config.json` file to avoid hardcoding sensitive information.
+- **Error Handling**: Errors in each state are caught and logged without causing a complete process failure.
 
-👉 You will probably need to run your code on another machine quite soon, so by using `conda.yaml`:
-- You can avoid `Works on my machine` -cases
-- You do not need to manage Python installations on all the machines
-- You can control exactly which version of Python your automation will run on 
-  - You'll also control the pip version to avoid dep. resolution changes
-- No need for venv, pyenv, ... tooling and knowledge sharing inside your team.
-- Define dependencies in conda.yaml, let our tooling do the heavy lifting.
-- You get all the content of [conda-forge](https://prefix.dev/channels/conda-forge) without any extra tooling
+---
 
-> Dive deeper with [these](https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-condayaml) resources.
+## **Features**
 
-</details>
-<br/>
+- **Logging**: Logs every key step and error for debugging and monitoring.
+- **Credential Management**: Loads login credentials from `config.json`.
+- **Data Handling**: Processes data from an Excel file and submits it via a web form.
+- **File Export**: Exports the results as a PDF file.
 
-> The full power of [rpaframework](https://robocorp.com/docs/python/rpa-framework) -libraries is also available on Python as a backup while we implement the new Python libraries.
+---
 
-## What now?
+## **Setup Instructions**
 
-🚀 Now, go get'em
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
 
-Start writing Python and remember that the AI/LLM's out there are getting really good and creating Python code specifically.
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-👉 Try out [Robocorp ReMark 💬](https://chat.robocorp.com)
+4. **Run the bot**
+   ```bash
+   python task.py
+   ```
 
-For more information, do not forget to check out the following:
-- [Robocorp Documentation -site](https://robocorp.com/docs)
-- [Portal for more examples](https://robocorp.com/portal)
-- Follow our main [robocorp -repository](https://github.com/robocorp/robocorp) as it is the main location where we developed the libraries and the framework.
+---
+
+## **Error Handling**
+
+- **Missing Credentials**: If `config.json` is missing or does not contain the required keys, the bot will exit with a clear error message.
+- **Login Failure**: If the login fails, the bot logs the error and exits.
+- **Data Processing Issues**: Any issues while processing individual sales entries will be logged and the bot will move on to the next row.
+- **File Download Errors**: If the Excel file cannot be downloaded, the process will be logged and halted.
+
+---
+
+## **File Structure**
+```
+.
+
+├── config.json         # Credentials file 
+├── task.py             # Main bot logic
+├── LICENSE             # License file for the repository
+├── conda.yaml          # Dependency management for the project environment
+├── robo.yaml           # Robot configuration file for Robocorp tools
+├── SalesData.xlsx      # Sample sales data file for testing
+├── README.md           # This readme file
+├──  requirements.txt   # Required Python dependencies
+└── robot_spare_bin.log #log file for the robot
+```
+
+---
+
+## **Technologies Used**
+
+- **Python**: Main programming language.
+- **Robocorp Libraries**: Used for browser automation, Excel handling, and PDF creation.
+- **Logging**: Built-in logging for tracking execution and debugging.
+
+---
+
+## **Improvements**
+- **Retry Logic**: Implement retry logic for network-based operations (e.g., login, file downloads).
+- **Dynamic Credential Management**: Use environment variables or a secure secrets manager.
+- **Error Recovery**: Add the ability to resume from a specific state if an error occurs.
+- **Comprehensive Tests**: Add unit tests to ensure that each function works as expected.
+
+---
+
+## **License**
+This project is licensed under the terms of the [LICENSE](LICENSE) file. Click the link to view the full license terms.
+
+---
+
+## **Contact**
+For questions or suggestions, please create an issue or submit a pull request in the GitHub repository.

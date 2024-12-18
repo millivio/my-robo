@@ -1,0 +1,308 @@
+2024-12-18 13:08:32,601 - INFO - Website opened successfully.
+2024-12-18 13:08:32,602 - INFO - Credentials loaded successfully.
+2024-12-18 13:08:33,052 - INFO - Successfully logged in.
+2024-12-18 13:08:33,052 - ERROR - Unexpected error during execution: log_in() missing 1 required positional argument: 'credentials'
+2024-12-18 13:12:57,342 - INFO - Website opened successfully.
+2024-12-18 13:12:57,343 - INFO - Credentials loaded successfully.
+2024-12-18 13:12:57,346 - ERROR - Login failed: name 'ppage' is not defined
+2024-12-18 13:12:57,348 - INFO - Creating a new HTTP session
+2024-12-18 13:12:57,348 - INFO - Creating Session using : alias=rpasession_alias.httpsrobotsparebinindustries.com, url=https://robotsparebinindustries.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 
+2024-12-18 13:12:57,549 - INFO - Excel file downloaded successfully.
+2024-12-18 13:12:57,585 - INFO - Opened workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x106b57fd0>
+2024-12-18 13:12:57,588 - INFO - Created table: Table(columns=['First Name', 'Last Name', 'Sales', 'Sales Target'], rows=50)
+2024-12-18 13:12:57,590 - INFO - Closing workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x106b57fd0>
+2024-12-18 13:13:27,711 - ERROR - Error submitting sales form for {'First Name': 'David', 'Last Name': 'Heazel', 'Sales': 80193, 'Sales Target': 30000}: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#firstname")
+
+2024-12-18 13:14:40,694 - INFO - Website opened successfully.
+2024-12-18 13:14:40,695 - INFO - Credentials loaded successfully.
+2024-12-18 13:14:41,160 - INFO - Successfully logged in.
+2024-12-18 13:14:41,163 - INFO - Creating a new HTTP session
+2024-12-18 13:14:41,163 - INFO - Creating Session using : alias=rpasession_alias.httpsrobotsparebinindustries.com, url=https://robotsparebinindustries.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 
+2024-12-18 13:14:41,324 - INFO - Excel file downloaded successfully.
+2024-12-18 13:14:41,353 - INFO - Opened workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x103f6ae90>
+2024-12-18 13:14:41,357 - INFO - Created table: Table(columns=['First Name', 'Last Name', 'Sales', 'Sales Target'], rows=50)
+2024-12-18 13:14:41,359 - INFO - Closing workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x103f6ae90>
+2024-12-18 13:15:18,394 - INFO - Screenshot saved successfully.
+2024-12-18 13:15:18,423 - INFO - Writing output to file /Users/zulekhanoor/Downloads/my-robo/output/sales_results.pdf
+2024-12-18 13:15:19,025 - INFO - maxp pruned
+2024-12-18 13:15:19,025 - INFO - cmap pruned
+2024-12-18 13:15:19,040 - INFO - post pruned
+2024-12-18 13:15:19,046 - INFO - GDEF dropped
+2024-12-18 13:15:19,047 - INFO - GPOS dropped
+2024-12-18 13:15:19,047 - INFO - GSUB dropped
+2024-12-18 13:15:19,058 - INFO - glyf pruned
+2024-12-18 13:15:19,060 - INFO - Added gid0 to subset
+2024-12-18 13:15:19,060 - INFO - Added first four glyphs to subset
+2024-12-18 13:15:19,060 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2024-12-18 13:15:19,060 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0024', 'uni0027', 'uni002C', 'uni002D', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0042', 'uni0043', 'uni0044', 'uni0045', 'uni0046', 'uni0047', 'uni0048', 'uni0049', 'uni004A', 'uni004B', 'uni004C', 'uni004D', 'uni004E', 'uni004F', 'uni0050', 'uni0052', 'uni0053', 'uni0054', 'uni0055', 'uni0056', 'uni0057', 'uni0059', 'uni0061', 'uni0062', 'uni0063', 'uni0064', 'uni0065', 'uni0066', 'uni0067', 'uni0068', 'uni0069', 'uni006B', 'uni006C', 'uni006D', 'uni006E', 'uni006F', 'uni0070', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni0076', 'uni0077', 'uni0079', 'uni007A', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:15:19,061 - INFO - Glyph IDs:   [0, 1, 2, 3, 65, 73, 84, 95, 137, 141, 161, 197, 265, 270, 280, 291, 299, 320, 374, 382, 395, 409, 421, 453, 456, 469, 504, 575, 582, 594, 612, 645, 650, 660, 679, 715, 723, 752, 759, 775, 827, 837, 867, 884, 899, 932, 936, 950, 973, 1262, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1361, 1388, 1403, 1681]
+2024-12-18 13:15:19,061 - INFO - Closed glyph list over 'glyf': 66 glyphs after
+2024-12-18 13:15:19,061 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0024', 'uni0027', 'uni002C', 'uni002D', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0042', 'uni0043', 'uni0044', 'uni0045', 'uni0046', 'uni0047', 'uni0048', 'uni0049', 'uni004A', 'uni004B', 'uni004C', 'uni004D', 'uni004E', 'uni004F', 'uni0050', 'uni0052', 'uni0053', 'uni0054', 'uni0055', 'uni0056', 'uni0057', 'uni0059', 'uni0061', 'uni0062', 'uni0063', 'uni0064', 'uni0065', 'uni0066', 'uni0067', 'uni0068', 'uni0069', 'uni006B', 'uni006C', 'uni006D', 'uni006E', 'uni006F', 'uni0070', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni0076', 'uni0077', 'uni0079', 'uni007A', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:15:19,062 - INFO - Glyph IDs:   [0, 1, 2, 3, 65, 73, 84, 95, 137, 141, 161, 197, 265, 270, 280, 291, 299, 320, 374, 382, 395, 409, 421, 453, 456, 469, 504, 575, 582, 594, 612, 645, 650, 660, 679, 715, 723, 752, 759, 775, 827, 837, 867, 884, 899, 932, 936, 950, 973, 1262, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1361, 1388, 1403, 1681]
+2024-12-18 13:15:19,062 - INFO - Retaining 66 glyphs
+2024-12-18 13:15:19,063 - INFO - head subsetting not needed
+2024-12-18 13:15:19,063 - INFO - hhea subsetting not needed
+2024-12-18 13:15:19,063 - INFO - maxp subsetting not needed
+2024-12-18 13:15:19,063 - INFO - OS/2 subsetting not needed
+2024-12-18 13:15:19,063 - INFO - hmtx subsetted
+2024-12-18 13:15:19,065 - INFO - cmap subsetted
+2024-12-18 13:15:19,065 - INFO - prep subsetting not needed
+2024-12-18 13:15:19,065 - INFO - loca subsetting not needed
+2024-12-18 13:15:19,065 - INFO - post subsetted
+2024-12-18 13:15:19,065 - INFO - gasp subsetting not needed
+2024-12-18 13:15:19,065 - INFO - STAT subsetting not needed
+2024-12-18 13:15:19,065 - INFO - name subsetting not needed
+2024-12-18 13:15:19,066 - INFO - glyf subsetted
+2024-12-18 13:15:19,067 - INFO - head pruned
+2024-12-18 13:15:19,067 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:15:19,068 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:15:19,069 - INFO - glyf pruned
+2024-12-18 13:15:19,074 - INFO - name pruned
+2024-12-18 13:15:19,107 - INFO - maxp pruned
+2024-12-18 13:15:19,108 - INFO - cmap pruned
+2024-12-18 13:15:19,108 - INFO - post pruned
+2024-12-18 13:15:19,108 - INFO - GDEF dropped
+2024-12-18 13:15:19,108 - INFO - GPOS dropped
+2024-12-18 13:15:19,108 - INFO - GSUB dropped
+2024-12-18 13:15:19,115 - INFO - glyf pruned
+2024-12-18 13:15:19,115 - INFO - Added gid0 to subset
+2024-12-18 13:15:19,115 - INFO - Added first four glyphs to subset
+2024-12-18 13:15:19,116 - INFO - Closing glyph list over 'glyf': 35 glyphs before
+2024-12-18 13:15:19,116 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0044', 'uni004E', 'uni0052', 'uni0054', 'uni0061', 'uni0062', 'uni0063', 'uni0065', 'uni0066', 'uni0067', 'uni0069', 'uni006C', 'uni006D', 'uni006E', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:15:19,116 - INFO - Glyph IDs:   [0, 1, 2, 3, 84, 299, 382, 409, 504, 575, 582, 612, 645, 650, 679, 723, 752, 759, 837, 867, 884, 899, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1681]
+2024-12-18 13:15:19,116 - INFO - Closed glyph list over 'glyf': 35 glyphs after
+2024-12-18 13:15:19,116 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0044', 'uni004E', 'uni0052', 'uni0054', 'uni0061', 'uni0062', 'uni0063', 'uni0065', 'uni0066', 'uni0067', 'uni0069', 'uni006C', 'uni006D', 'uni006E', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:15:19,117 - INFO - Glyph IDs:   [0, 1, 2, 3, 84, 299, 382, 409, 504, 575, 582, 612, 645, 650, 679, 723, 752, 759, 837, 867, 884, 899, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1681]
+2024-12-18 13:15:19,117 - INFO - Retaining 35 glyphs
+2024-12-18 13:15:19,118 - INFO - head subsetting not needed
+2024-12-18 13:15:19,118 - INFO - hhea subsetting not needed
+2024-12-18 13:15:19,118 - INFO - maxp subsetting not needed
+2024-12-18 13:15:19,118 - INFO - OS/2 subsetting not needed
+2024-12-18 13:15:19,118 - INFO - hmtx subsetted
+2024-12-18 13:15:19,119 - INFO - cmap subsetted
+2024-12-18 13:15:19,119 - INFO - prep subsetting not needed
+2024-12-18 13:15:19,119 - INFO - loca subsetting not needed
+2024-12-18 13:15:19,119 - INFO - post subsetted
+2024-12-18 13:15:19,120 - INFO - gasp subsetting not needed
+2024-12-18 13:15:19,120 - INFO - STAT subsetting not needed
+2024-12-18 13:15:19,120 - INFO - name subsetting not needed
+2024-12-18 13:15:19,121 - INFO - glyf subsetted
+2024-12-18 13:15:19,121 - INFO - head pruned
+2024-12-18 13:15:19,122 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:15:19,122 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:15:19,124 - INFO - glyf pruned
+2024-12-18 13:15:19,127 - INFO - name pruned
+2024-12-18 13:15:19,147 - INFO - maxp pruned
+2024-12-18 13:15:19,147 - INFO - cmap pruned
+2024-12-18 13:15:19,148 - INFO - post pruned
+2024-12-18 13:15:19,148 - INFO - GDEF dropped
+2024-12-18 13:15:19,148 - INFO - GPOS dropped
+2024-12-18 13:15:19,148 - INFO - GSUB dropped
+2024-12-18 13:15:19,156 - INFO - glyf pruned
+2024-12-18 13:15:19,159 - INFO - Added gid0 to subset
+2024-12-18 13:15:19,159 - INFO - Added first four glyphs to subset
+2024-12-18 13:15:19,159 - INFO - Closing glyph list over 'glyf': 18 glyphs before
+2024-12-18 13:15:19,159 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:15:19,160 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:15:19,160 - INFO - Closed glyph list over 'glyf': 18 glyphs after
+2024-12-18 13:15:19,160 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:15:19,160 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:15:19,160 - INFO - Retaining 18 glyphs
+2024-12-18 13:15:19,161 - INFO - head subsetting not needed
+2024-12-18 13:15:19,161 - INFO - hhea subsetting not needed
+2024-12-18 13:15:19,161 - INFO - maxp subsetting not needed
+2024-12-18 13:15:19,161 - INFO - OS/2 subsetting not needed
+2024-12-18 13:15:19,161 - INFO - hmtx subsetted
+2024-12-18 13:15:19,162 - INFO - cmap subsetted
+2024-12-18 13:15:19,162 - INFO - loca subsetting not needed
+2024-12-18 13:15:19,162 - INFO - post subsetted
+2024-12-18 13:15:19,162 - INFO - name subsetting not needed
+2024-12-18 13:15:19,163 - INFO - glyf subsetted
+2024-12-18 13:15:19,164 - INFO - head pruned
+2024-12-18 13:15:19,164 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:15:19,164 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:15:19,165 - INFO - glyf pruned
+2024-12-18 13:15:19,165 - INFO - name pruned
+2024-12-18 13:15:19,178 - INFO - maxp pruned
+2024-12-18 13:15:19,178 - INFO - cmap pruned
+2024-12-18 13:15:19,178 - INFO - post pruned
+2024-12-18 13:15:19,178 - INFO - GDEF dropped
+2024-12-18 13:15:19,178 - INFO - GPOS dropped
+2024-12-18 13:15:19,178 - INFO - GSUB dropped
+2024-12-18 13:15:19,263 - INFO - glyf pruned
+2024-12-18 13:15:19,267 - INFO - Added gid0 to subset
+2024-12-18 13:15:19,267 - INFO - Added first four glyphs to subset
+2024-12-18 13:15:19,267 - INFO - Closing glyph list over 'glyf': 18 glyphs before
+2024-12-18 13:15:19,267 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:15:19,268 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:15:19,268 - INFO - Closed glyph list over 'glyf': 18 glyphs after
+2024-12-18 13:15:19,268 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:15:19,269 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:15:19,269 - INFO - Retaining 18 glyphs
+2024-12-18 13:15:19,269 - INFO - head subsetting not needed
+2024-12-18 13:15:19,270 - INFO - hhea subsetting not needed
+2024-12-18 13:15:19,270 - INFO - maxp subsetting not needed
+2024-12-18 13:15:19,270 - INFO - OS/2 subsetting not needed
+2024-12-18 13:15:19,270 - INFO - hmtx subsetted
+2024-12-18 13:15:19,271 - INFO - cmap subsetted
+2024-12-18 13:15:19,271 - INFO - loca subsetting not needed
+2024-12-18 13:15:19,272 - INFO - post subsetted
+2024-12-18 13:15:19,272 - INFO - name subsetting not needed
+2024-12-18 13:15:19,273 - INFO - glyf subsetted
+2024-12-18 13:15:19,273 - INFO - head pruned
+2024-12-18 13:15:19,274 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:15:19,274 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:15:19,274 - INFO - glyf pruned
+2024-12-18 13:15:19,275 - INFO - name pruned
+2024-12-18 13:15:19,297 - INFO - PDF exported successfully.
+2024-12-18 13:15:19,433 - INFO - Successfully logged out.
+2024-12-18 13:16:28,011 - INFO - Website opened successfully.
+2024-12-18 13:16:28,035 - INFO - Credentials loaded successfully.
+2024-12-18 13:16:28,754 - INFO - Successfully logged in.
+2024-12-18 13:16:28,758 - INFO - Creating a new HTTP session
+2024-12-18 13:16:28,758 - INFO - Creating Session using : alias=rpasession_alias.httpsrobotsparebinindustries.com, url=https://robotsparebinindustries.com, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 
+2024-12-18 13:16:28,942 - INFO - Excel file downloaded successfully.
+2024-12-18 13:16:28,973 - INFO - Opened workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x10c7fdf60>
+2024-12-18 13:16:28,976 - INFO - Created table: Table(columns=['First Name', 'Last Name', 'Sales', 'Sales Target'], rows=50)
+2024-12-18 13:16:28,978 - INFO - Closing workbook: <RPA.Excel.Files.XlsxWorkbook object at 0x10c7fdf60>
+2024-12-18 13:18:40,811 - ERROR - Failed to collect screenshot: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  -   - waiting for fonts to load...
+  -   - fonts loaded
+
+2024-12-18 13:18:40,844 - INFO - Writing output to file /Users/zulekhanoor/Downloads/my-robo/output/sales_results.pdf
+2024-12-18 13:18:41,382 - INFO - maxp pruned
+2024-12-18 13:18:41,383 - INFO - cmap pruned
+2024-12-18 13:18:41,393 - INFO - post pruned
+2024-12-18 13:18:41,399 - INFO - GDEF dropped
+2024-12-18 13:18:41,400 - INFO - GPOS dropped
+2024-12-18 13:18:41,400 - INFO - GSUB dropped
+2024-12-18 13:18:41,408 - INFO - glyf pruned
+2024-12-18 13:18:41,409 - INFO - Added gid0 to subset
+2024-12-18 13:18:41,409 - INFO - Added first four glyphs to subset
+2024-12-18 13:18:41,409 - INFO - Closing glyph list over 'glyf': 66 glyphs before
+2024-12-18 13:18:41,409 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0024', 'uni0027', 'uni002C', 'uni002D', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0042', 'uni0043', 'uni0044', 'uni0045', 'uni0046', 'uni0047', 'uni0048', 'uni0049', 'uni004A', 'uni004B', 'uni004C', 'uni004D', 'uni004E', 'uni004F', 'uni0050', 'uni0052', 'uni0053', 'uni0054', 'uni0055', 'uni0056', 'uni0057', 'uni0059', 'uni0061', 'uni0062', 'uni0063', 'uni0064', 'uni0065', 'uni0066', 'uni0067', 'uni0068', 'uni0069', 'uni006B', 'uni006C', 'uni006D', 'uni006E', 'uni006F', 'uni0070', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni0076', 'uni0077', 'uni0079', 'uni007A', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:18:41,410 - INFO - Glyph IDs:   [0, 1, 2, 3, 65, 73, 84, 95, 137, 141, 161, 197, 265, 270, 280, 291, 299, 320, 374, 382, 395, 409, 421, 453, 456, 469, 504, 575, 582, 594, 612, 645, 650, 660, 679, 715, 723, 752, 759, 775, 827, 837, 867, 884, 899, 932, 936, 950, 973, 1262, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1361, 1388, 1403, 1681]
+2024-12-18 13:18:41,410 - INFO - Closed glyph list over 'glyf': 66 glyphs after
+2024-12-18 13:18:41,410 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0024', 'uni0027', 'uni002C', 'uni002D', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0042', 'uni0043', 'uni0044', 'uni0045', 'uni0046', 'uni0047', 'uni0048', 'uni0049', 'uni004A', 'uni004B', 'uni004C', 'uni004D', 'uni004E', 'uni004F', 'uni0050', 'uni0052', 'uni0053', 'uni0054', 'uni0055', 'uni0056', 'uni0057', 'uni0059', 'uni0061', 'uni0062', 'uni0063', 'uni0064', 'uni0065', 'uni0066', 'uni0067', 'uni0068', 'uni0069', 'uni006B', 'uni006C', 'uni006D', 'uni006E', 'uni006F', 'uni0070', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni0076', 'uni0077', 'uni0079', 'uni007A', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:18:41,411 - INFO - Glyph IDs:   [0, 1, 2, 3, 65, 73, 84, 95, 137, 141, 161, 197, 265, 270, 280, 291, 299, 320, 374, 382, 395, 409, 421, 453, 456, 469, 504, 575, 582, 594, 612, 645, 650, 660, 679, 715, 723, 752, 759, 775, 827, 837, 867, 884, 899, 932, 936, 950, 973, 1262, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1361, 1388, 1403, 1681]
+2024-12-18 13:18:41,411 - INFO - Retaining 66 glyphs
+2024-12-18 13:18:41,412 - INFO - head subsetting not needed
+2024-12-18 13:18:41,412 - INFO - hhea subsetting not needed
+2024-12-18 13:18:41,412 - INFO - maxp subsetting not needed
+2024-12-18 13:18:41,412 - INFO - OS/2 subsetting not needed
+2024-12-18 13:18:41,412 - INFO - hmtx subsetted
+2024-12-18 13:18:41,414 - INFO - cmap subsetted
+2024-12-18 13:18:41,414 - INFO - prep subsetting not needed
+2024-12-18 13:18:41,414 - INFO - loca subsetting not needed
+2024-12-18 13:18:41,414 - INFO - post subsetted
+2024-12-18 13:18:41,414 - INFO - gasp subsetting not needed
+2024-12-18 13:18:41,414 - INFO - STAT subsetting not needed
+2024-12-18 13:18:41,414 - INFO - name subsetting not needed
+2024-12-18 13:18:41,415 - INFO - glyf subsetted
+2024-12-18 13:18:41,416 - INFO - head pruned
+2024-12-18 13:18:41,416 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:18:41,416 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:18:41,417 - INFO - glyf pruned
+2024-12-18 13:18:41,421 - INFO - name pruned
+2024-12-18 13:18:41,448 - INFO - maxp pruned
+2024-12-18 13:18:41,448 - INFO - cmap pruned
+2024-12-18 13:18:41,449 - INFO - post pruned
+2024-12-18 13:18:41,449 - INFO - GDEF dropped
+2024-12-18 13:18:41,449 - INFO - GPOS dropped
+2024-12-18 13:18:41,449 - INFO - GSUB dropped
+2024-12-18 13:18:41,461 - INFO - glyf pruned
+2024-12-18 13:18:41,462 - INFO - Added gid0 to subset
+2024-12-18 13:18:41,462 - INFO - Added first four glyphs to subset
+2024-12-18 13:18:41,462 - INFO - Closing glyph list over 'glyf': 35 glyphs before
+2024-12-18 13:18:41,462 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0044', 'uni004E', 'uni0052', 'uni0054', 'uni0061', 'uni0062', 'uni0063', 'uni0065', 'uni0066', 'uni0067', 'uni0069', 'uni006C', 'uni006D', 'uni006E', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:18:41,463 - INFO - Glyph IDs:   [0, 1, 2, 3, 84, 299, 382, 409, 504, 575, 582, 612, 645, 650, 679, 723, 752, 759, 837, 867, 884, 899, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1681]
+2024-12-18 13:18:41,463 - INFO - Closed glyph list over 'glyf': 35 glyphs after
+2024-12-18 13:18:41,463 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0041', 'uni0044', 'uni004E', 'uni0052', 'uni0054', 'uni0061', 'uni0062', 'uni0063', 'uni0065', 'uni0066', 'uni0067', 'uni0069', 'uni006C', 'uni006D', 'uni006E', 'uni0072', 'uni0073', 'uni0074', 'uni0075', 'uni007B', 'uni007D', 'uni00C4']
+2024-12-18 13:18:41,464 - INFO - Glyph IDs:   [0, 1, 2, 3, 84, 299, 382, 409, 504, 575, 582, 612, 645, 650, 679, 723, 752, 759, 837, 867, 884, 899, 1294, 1295, 1296, 1298, 1299, 1300, 1302, 1303, 1304, 1305, 1345, 1346, 1681]
+2024-12-18 13:18:41,464 - INFO - Retaining 35 glyphs
+2024-12-18 13:18:41,465 - INFO - head subsetting not needed
+2024-12-18 13:18:41,465 - INFO - hhea subsetting not needed
+2024-12-18 13:18:41,465 - INFO - maxp subsetting not needed
+2024-12-18 13:18:41,465 - INFO - OS/2 subsetting not needed
+2024-12-18 13:18:41,466 - INFO - hmtx subsetted
+2024-12-18 13:18:41,467 - INFO - cmap subsetted
+2024-12-18 13:18:41,467 - INFO - prep subsetting not needed
+2024-12-18 13:18:41,467 - INFO - loca subsetting not needed
+2024-12-18 13:18:41,467 - INFO - post subsetted
+2024-12-18 13:18:41,468 - INFO - gasp subsetting not needed
+2024-12-18 13:18:41,468 - INFO - STAT subsetting not needed
+2024-12-18 13:18:41,468 - INFO - name subsetting not needed
+2024-12-18 13:18:41,469 - INFO - glyf subsetted
+2024-12-18 13:18:41,470 - INFO - head pruned
+2024-12-18 13:18:41,470 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:18:41,470 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:18:41,471 - INFO - glyf pruned
+2024-12-18 13:18:41,473 - INFO - name pruned
+2024-12-18 13:18:41,491 - INFO - maxp pruned
+2024-12-18 13:18:41,491 - INFO - cmap pruned
+2024-12-18 13:18:41,491 - INFO - post pruned
+2024-12-18 13:18:41,491 - INFO - GDEF dropped
+2024-12-18 13:18:41,491 - INFO - GPOS dropped
+2024-12-18 13:18:41,491 - INFO - GSUB dropped
+2024-12-18 13:18:41,498 - INFO - glyf pruned
+2024-12-18 13:18:41,500 - INFO - Added gid0 to subset
+2024-12-18 13:18:41,500 - INFO - Added first four glyphs to subset
+2024-12-18 13:18:41,500 - INFO - Closing glyph list over 'glyf': 18 glyphs before
+2024-12-18 13:18:41,500 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:18:41,501 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:18:41,501 - INFO - Closed glyph list over 'glyf': 18 glyphs after
+2024-12-18 13:18:41,501 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:18:41,501 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:18:41,501 - INFO - Retaining 18 glyphs
+2024-12-18 13:18:41,502 - INFO - head subsetting not needed
+2024-12-18 13:18:41,502 - INFO - hhea subsetting not needed
+2024-12-18 13:18:41,502 - INFO - maxp subsetting not needed
+2024-12-18 13:18:41,502 - INFO - OS/2 subsetting not needed
+2024-12-18 13:18:41,502 - INFO - hmtx subsetted
+2024-12-18 13:18:41,503 - INFO - cmap subsetted
+2024-12-18 13:18:41,503 - INFO - loca subsetting not needed
+2024-12-18 13:18:41,503 - INFO - post subsetted
+2024-12-18 13:18:41,504 - INFO - name subsetting not needed
+2024-12-18 13:18:41,504 - INFO - glyf subsetted
+2024-12-18 13:18:41,505 - INFO - head pruned
+2024-12-18 13:18:41,505 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:18:41,505 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:18:41,505 - INFO - glyf pruned
+2024-12-18 13:18:41,506 - INFO - name pruned
+2024-12-18 13:18:41,516 - INFO - maxp pruned
+2024-12-18 13:18:41,516 - INFO - cmap pruned
+2024-12-18 13:18:41,516 - INFO - post pruned
+2024-12-18 13:18:41,516 - INFO - GDEF dropped
+2024-12-18 13:18:41,516 - INFO - GPOS dropped
+2024-12-18 13:18:41,516 - INFO - GSUB dropped
+2024-12-18 13:18:41,527 - INFO - glyf pruned
+2024-12-18 13:18:41,530 - INFO - Added gid0 to subset
+2024-12-18 13:18:41,530 - INFO - Added first four glyphs to subset
+2024-12-18 13:18:41,531 - INFO - Closing glyph list over 'glyf': 18 glyphs before
+2024-12-18 13:18:41,531 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:18:41,531 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:18:41,531 - INFO - Closed glyph list over 'glyf': 18 glyphs after
+2024-12-18 13:18:41,531 - INFO - Glyph names: ['.notdef', '.null', 'uni0020', 'uni0030', 'uni0031', 'uni0032', 'uni0033', 'uni0034', 'uni0035', 'uni0036', 'uni0037', 'uni0038', 'uni0039', 'uni0062', 'uni006E', 'uni007B', 'uni007D', 'uni00A0']
+2024-12-18 13:18:41,532 - INFO - Glyph IDs:   [0, 1, 2, 3, 544, 727, 1256, 1257, 1258, 1260, 1261, 1262, 1264, 1265, 1266, 1267, 1307, 1308]
+2024-12-18 13:18:41,532 - INFO - Retaining 18 glyphs
+2024-12-18 13:18:41,533 - INFO - head subsetting not needed
+2024-12-18 13:18:41,533 - INFO - hhea subsetting not needed
+2024-12-18 13:18:41,533 - INFO - maxp subsetting not needed
+2024-12-18 13:18:41,533 - INFO - OS/2 subsetting not needed
+2024-12-18 13:18:41,533 - INFO - hmtx subsetted
+2024-12-18 13:18:41,534 - INFO - cmap subsetted
+2024-12-18 13:18:41,534 - INFO - loca subsetting not needed
+2024-12-18 13:18:41,534 - INFO - post subsetted
+2024-12-18 13:18:41,535 - INFO - name subsetting not needed
+2024-12-18 13:18:41,536 - INFO - glyf subsetted
+2024-12-18 13:18:41,536 - INFO - head pruned
+2024-12-18 13:18:41,536 - INFO - OS/2 Unicode ranges pruned: [0]
+2024-12-18 13:18:41,537 - INFO - OS/2 CodePage ranges pruned: [0]
+2024-12-18 13:18:41,537 - INFO - glyf pruned
+2024-12-18 13:18:41,538 - INFO - name pruned
+2024-12-18 13:18:41,551 - INFO - PDF exported successfully.
+2024-12-18 13:18:42,917 - INFO - Successfully logged out.
