@@ -5,7 +5,7 @@ This bot automates the process of logging into RobotSpareBinIndustries, extracti
 ## **Solution Design**
 
 ## **State Transition Model**
-![State Transition Model] (https://github-production-user-asset-6210df.s3.amazonaws.com/60471866/396916917-9224ae61-ba92-4108-961c-a5b47059e3c6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241218%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241218T124743Z&X-Amz-Expires=300&X-Amz-Signature=8a8deb161db2291d930450327dafe4a1266eedaf49d40efa6f64da5598c4c3c4&X-Amz-SignedHeaders=host)
+![State Transition Model] (https://github.com/user-attachments/assets/b3445fba-4206-4bce-986b-b97e8c5155c3)
 
 The process follows a structured state transition model similar to the UiPath Reframework. Each state represents a distinct phase in the automation process. The key states are as follows:
 
